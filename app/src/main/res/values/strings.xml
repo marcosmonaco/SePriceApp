@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SePriceApp</string>
+    <!--- main -->
+    <string name="main_title">Clinica SePrice</string>
+    <!--- Inicio -->
+    <string name="start_welcome">Bienvenido</string>
+    <string name="start_insert_data">Por favor, ingresa tus datos</string>
+    <string name="start_user">Usuario:</string>
+    <string name="start_pass">Clave:</string>
+    <string name="start_get_in">Ingresar</string>
+    <string name="start_forgot_pass">¿Olvidaste tu clave?</string>
+    <string name="start_no_account">¿No tenes una cuenta? Registrate</string>
+    <!--- Registro -->
+    <string name="registry_form">Formulario de registro</string>
+    <string name="registry_name">Nombre:</string>
+    <string name="registry_last_name">Apellido:</string>
+    <string name="registry_phone">Telefono:</string>
+    <string name="registry_dni">DNI:</string>
+    <string name="registry_date_birth">Fecha de nacimiento:</string>
+    <string name="registry_city">Ciudad:</string>
+    <string name="registry_address">Direccion:</string>
+    <string name="registry_district">Localidad:</string>
+    <string name="registry_postal">CP:</string>
+    <string name="registry_register">Registrarme</string>
+    <string name="registry_affiliate">N° afiliado</string>
+    <!--- Menu principal -->
+    <string name="menu_book_appointment">Reservar turno</string>
+    <string name="menu_my_appointments">Mis turnos</string>
+    <string name="menu_lab">Laboratorio</string>
+    <string name="menu_study">Estudio</string>
+    <string name="menu_help">Ayuda</string>
+    <!--- Footer -->
+    <string name="footer_contact_number">Turnos: 0800 &#8211; 345 &#8211; 678</string>
+    <string name="footer_contact_text"> ©2024 Clinica SePrice &#8211; Todos los Derechos Reservados.</string>
+</resources>
