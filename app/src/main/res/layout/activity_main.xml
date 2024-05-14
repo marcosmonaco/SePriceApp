@@ -123,7 +123,7 @@
 
             <TextView
                 android:id="@+id/start_pass"
-                android:layout_width="166dp"
+                android:layout_width="174dp"
                 android:layout_height="33dp"
 
                 android:text="@string/start_pass"
