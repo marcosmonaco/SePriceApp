@@ -23,6 +23,14 @@
     <string name="registry_postal">CP:</string>
     <string name="registry_register">Registrarme</string>
     <string name="registry_affiliate">N° afiliado</string>
+    <!--- Dropdown -->
+    <string name="app_name">SePriceApp</string>
+    <string-array name="dropdown_items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
     <!--- Menu principal -->
     <string name="menu_book_appointment">Reservar turno</string>
     <string name="menu_my_appointments">Mis turnos</string>
