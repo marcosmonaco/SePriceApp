@@ -3,10 +3,7 @@ package com.sepriceapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     class MainActivity : AppCompatActivity() {
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
-            setContentView(R.layout.activity_main)
+            setContentView(R.layout.inicio)
 
             // Obtener referencia al Spinner
             val spinner: Spinner = findViewById(R.id.spinner)
@@ -41,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.inicio)
 
         val button = findViewById<Button>(R.id.button)
 

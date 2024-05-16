@@ -37,6 +37,7 @@
         android:layout_height="60dp"
         android:backgroundTint="@color/primary_300"
         android:text="Reservar turno"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
