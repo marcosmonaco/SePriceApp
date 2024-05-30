@@ -2,6 +2,9 @@
     <string name="app_name">SePriceApp</string>
     <!--- main -->
     <string name="main_title">Clinica SePrice</string>
+    <!--- Generales -->
+    <string name="default_continue">Continuar</string>
+    <string name="default_back">Volver</string>
     <!--- Inicio -->
     <string name="start_welcome">Bienvenido</string>
     <string name="start_insert_data">Por favor, ingresa tus datos</string>
@@ -24,7 +27,7 @@
     <string name="registry_register">Registrarme</string>
     <string name="registry_affiliate">N° afiliado</string>
     <!--- Dropdown -->
-    <string name="app_name">SePriceApp</string>
+
     <string-array name="dropdown_items">
         <item>Item 1</item>
         <item>Item 2</item>

@@ -5,12 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".RegisterActivity">
 
     <ImageView
         android:id="@+id/sepricebg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toTopOf="@+id/rectangle_at_the_top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -352,7 +353,7 @@
             android:layout_weight="1.0" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/registerButton"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="110dp"
