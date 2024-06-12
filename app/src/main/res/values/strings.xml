@@ -40,4 +40,34 @@
     <!--- Footer -->
     <string name="footer_contact_number">Turnos: 0800 &#8211; 345 &#8211; 678</string>
     <string name="footer_contact_text"> ©2024 Clinica SePrice &#8211; Todos los Derechos Reservados.</string>
+    <string name="fecha">Fecha</string>
+    <string name="estado">Estado</string>
+    <string name="_04_05_2024">04/05/2024</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="_14_03_2024">14/03/2024</string>
+    <string name="abrir">Abrir</string>
+    <string name="_02_11_2023">02/11/2023</string>
+    <string name="_04_09_2023">04/09/2023</string>
+    <string name="resultados_de_laboratorio">Resultados de laboratorio</string>
+    <string name="turnos_0800_345_678"><![CDATA[Turnos:  0800 - 345 - 678]]></string>
+    <string name="todo">TODO</string>
+    <string name="_2024_clinica_seprice"><![CDATA[©2024 Clinica SePrice]]></string>
+    <string name="todos_los_derechos_reservados">Todos los Derechos Reservados.</string>
+    <string name="estudios_realizados">Estudios realizados</string>
+    <string name="estudio">Estudio</string>
+    <string name="estudio_a">Estudio A</string>
+    <string name="tomograf_a">Tomografía</string>
+    <string name="espirometr_a">Espirometría</string>
+    <string name="ecograf_a">Ecografía</string>
+    <string name="rx">RX</string>
+    <string name="panel_de_ayuda">Panel de ayuda</string>
+    <string name="register_digital">Registro digital</string>
+    <string name="help_placeholder">El registro digital le permite solicitar y gestionar sus turnos, y ver los resultados de sus estudios desde la comodidad de su hogar. Este servicio se alinea con el compromiso de nuestra institución de mejorar la calidad, excelencia e innovación que caracteriza a nuestra Clínica.</string>
+    <string name="registro_digital_n">Registro digital ►\n\nDocumentación y trámites \n\nObras sociales y Prepagas \n\nDerechos y Responsabilidades \n\nCOVID</string>
+    <string name="mis_turnos">Mis turnos</string>
+    <string name="hora_09_00_am">Hora: 09:00 am</string>
+    <string name="fecha_26_07_2024">Fecha: 26/07/2024</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="especialidad_cl_nica_m_dica">Especialidad: Clínica Médica</string>
+    <string name="profesional_julia_rodriguez">Profesional: Julia Rodriguez</string>
 </resources>
