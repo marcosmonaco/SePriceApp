@@ -14,9 +14,9 @@ class RegisterActivity : AppCompatActivity() {
         setContentView(R.layout.register)
         enableEdgeToEdge()
 
-        // Register button
-        val registerButton = findViewById<Button>(R.id.registerButton)
-        val registerIntent = Intent(this, RegisterSuccessActivity::class.java)
+        // Continue button
+        val registerButton = findViewById<Button>(R.id.continueButton)
+        val registerIntent = Intent(this, ConfirmPasswordActivity::class.java)
         registerButton.setOnClickListener {
             startActivity(registerIntent)
         }

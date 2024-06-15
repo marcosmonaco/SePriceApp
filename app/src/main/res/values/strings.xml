@@ -8,7 +8,7 @@
     <!--- Inicio -->
     <string name="start_welcome">Bienvenido</string>
     <string name="start_insert_data">Por favor, ingresa tus datos</string>
-    <string name="start_user">Usuario:</string>
+    <string name="start_dni">DNI:</string>
     <string name="start_pass">Clave:</string>
     <string name="start_get_in">Ingresar</string>
     <string name="start_forgot_pass">¿Olvidaste tu clave?</string>
@@ -26,6 +26,11 @@
     <string name="registry_postal">CP:</string>
     <string name="registry_register">Registrarme</string>
     <string name="registry_affiliate">N° afiliado</string>
+    <string name="registry_success">¡Registro exitoso!</string>
+    <!--- Password -->
+    <string name="password">Contraseña:</string>
+    <string name="enter_password">Ingrese una contraseña</string>
+    <string name="repeat_password">Repita su contraseña por favor</string>
     <!--- Dropdown -->
 
     <string-array name="dropdown_items">
