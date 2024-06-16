@@ -9,7 +9,6 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/app_name"
         app:layout_constraintBottom_toTopOf="@+id/rectangle_at_the_top"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -30,7 +29,7 @@
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.099" />
 
     <View
         android:id="@+id/rectangle_at_the_top"
@@ -46,41 +45,214 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:layout_marginBottom="292dp"
-        android:fontFamily="@font/roboto_mono_bold"
-        android:text="Estudios realizados"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/goBackButton"
+        android:fontFamily="sans-serif"
+        android:text="Estudios Realizados"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top" />
+        tools:layout_editor_absoluteY="289dp"
+        tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/goBackButton"
-        android:layout_width="348dp"
-        android:layout_height="60dp"
-        android:backgroundTint="@color/primary_300"
-        android:text="@string/default_back"
-        app:cornerRadius="20dp"
+    <TableLayout
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="185dp"
+        android:background="#DAD6D6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
+        <!-- Headers -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CCCCCC"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Fecha"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
+            <!-- Columna de Estudio -->
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#CCCCCC"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Estudio"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="00dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#CCCCCC"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Estado"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </TableRow>
 
+        <!-- Fila 1 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="04/05/2024"
+                android:textSize="16sp" />
 
+            <TextView
+                android:layout_width="16dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="RX"
+                android:textSize="16sp" />
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Pend."
+                android:textSize="16sp" />
+        </TableRow>
+
+        <!-- Fila 2 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="14/03/2024"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Ecografía"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Abrir"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <!-- Fila 3 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="02/11/2023"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Espirometría"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Abrir"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <!-- Fila 4 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="04/09/2023"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Tomografía"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#E4E4E4"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Abrir"
+                android:textSize="16sp" />
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
