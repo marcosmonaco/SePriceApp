@@ -26,6 +26,11 @@
     <string name="registry_postal">CP:</string>
     <string name="registry_register">Registrarme</string>
     <string name="registry_affiliate">N° afiliado</string>
+    <string name="registry_success">¡Registro exitoso!</string>
+    <!--- Password -->
+    <string name="password">Contraseña:</string>
+    <string name="enter_password">Ingrese una contraseña</string>
+    <string name="repeat_password">Repita su contraseña por favor</string>
 
     <!--- Dropdown -->
     <string name="selected_item">Selected item:</string>
