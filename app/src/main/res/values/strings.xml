@@ -8,7 +8,7 @@
     <!--- Inicio -->
     <string name="start_welcome">Bienvenido</string>
     <string name="start_insert_data">Por favor, ingresa tus datos</string>
-    <string name="start_dni">DNI:</string>
+    <string name="start_user">Usuario:</string>
     <string name="start_pass">Clave:</string>
     <string name="start_get_in">Ingresar</string>
     <string name="start_forgot_pass">¿Olvidaste tu clave?</string>
@@ -31,21 +31,47 @@
     <string name="password">Contraseña:</string>
     <string name="enter_password">Ingrese una contraseña</string>
     <string name="repeat_password">Repita su contraseña por favor</string>
-    <!--- Dropdown -->
 
-    <string-array name="dropdown_items">
-        <item>Item 1</item>
-        <item>Item 2</item>
-        <item>Item 3</item>
-        <item>Item 4</item>
+    <!--- Dropdown -->
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="dropdown_especialidades">
+        <item>Cardiología</item>
+        <item>Clínica Médica</item>
+        <item>Odontología</item>
+        <item>Oftalmología</item>
+        <item>Oncología</item>
+        <item>Tomografía</item>
+        <item>Traumatología</item>
     </string-array>
+
+    <string-array name="dropdown_profesionales">
+        <item>Reberto Perez</item>
+        <item>Julia Rodriguez</item>
+        <item>Pedro Díaz</item>
+    </string-array>
+
+    <string-array name="dropdown_fechas">
+        <item>25/07/24</item>
+        <item>26/07/24</item>
+        <item>27/07/24</item>
+    </string-array>
+
+    <string-array name="dropdown_horarios">
+        <item>8:45</item>
+        <item>9:00</item>
+        <item>10:15</item>
+        <item>10:30</item>
+        <item>10:45</item>
+        <item>11:45</item>
+    </string-array>
+
     <!--- Menu principal -->
     <string name="menu_book_appointment">Reservar turno</string>
     <string name="menu_my_appointments">Mis turnos</string>
     <string name="menu_lab">Laboratorio</string>
     <string name="menu_study">Estudio</string>
     <string name="menu_help">Ayuda</string>
-    <!--- Footer -->
-    <string name="footer_contact_number">Turnos: 0800 &#8211; 345 &#8211; 678</string>
-    <string name="footer_contact_text"> ©2024 Clinica SePrice &#8211; Todos los Derechos Reservados.</string>
+
 </resources>
+
