@@ -349,16 +349,16 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="1.0" />
 
         <Button
-            android:id="@+id/registerButton"
+            android:id="@+id/continueButton"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="110dp"
             android:backgroundTint="@color/primary_300"
-            android:text="@string/registry_register"
+            android:text="@string/default_continue"
             app:cornerRadius="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

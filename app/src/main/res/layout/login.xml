@@ -90,10 +90,10 @@
 
             <TextView
                 android:id="@+id/start_user"
-                android:layout_width="171dp"
+                android:layout_width="174dp"
                 android:layout_height="34dp"
 
-                android:text="@string/start_user"
+                android:text="@string/start_dni"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -138,10 +138,8 @@
                 app:layout_constraintVertical_bias="0.653" />
 
             <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="166dp"
+                android:layout_width="174dp"
                 android:layout_height="41dp"
-
-
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
@@ -194,6 +192,8 @@
             app:layout_constraintVertical_bias="0.715" />
 
         <TextView
+            android:clickable="true"
+            android:focusable="true"
             android:id="@+id/start_no_account"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
