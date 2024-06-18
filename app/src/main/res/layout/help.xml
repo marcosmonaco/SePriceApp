@@ -14,7 +14,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/sepricebg" />
+        app:srcCompat="@drawable/sepricebg"/>
 
     <TextView
         android:id="@+id/main_title"
@@ -49,16 +49,59 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="39dp"
-        android:layout_marginBottom="292dp"
-        android:fontFamily="@font/roboto_mono_bold"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="26dp"
+        android:fontFamily="sans-serif"
         android:text="Panel de ayuda"
-        android:textSize="30dp"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="340dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="36dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/goBackButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints">
+
+        <!-- Primera columna de texto -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Registro Digital \n\nDocumentación y trámites \n\nObras sociales y Pregagas \n\nDerechos y responsabilidades \n\nCOVID"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Barra vertical como separador -->
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="#00BFA6" />
+
+        <!-- Segunda columna de texto -->
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="El registro digital le permite al/ a la paciente, desde la comodidad de su celular o computadora, solicitar turnos y modificarlos, ver resultados de estudios o laboratorios realizados. El servicio busca agilizar el trámite, favoreciendo el ahorro de tiempo del/ de la paciente. Además, el mismo se encuadra en el compromiso asumido por la institución de mejorar la calidad, excelencia e innovación en la prestación que caracteriza al Hospital."
+            android:textSize="16sp" />
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/goBackButton"
@@ -69,16 +112,8 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
-
-
-
-
-
-
-
-
+        app:layout_constraintVertical_bias="0.964" />
 </androidx.constraintlayout.widget.ConstraintLayout>
