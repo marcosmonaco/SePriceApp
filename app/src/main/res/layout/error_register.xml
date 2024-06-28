@@ -35,15 +35,16 @@
         android:id="@+id/main_title"
         android:layout_width="371dp"
         android:layout_height="57dp"
+        android:fontFamily="@font/roboto_bold"
         android:text="@string/main_title"
         android:textAlignment="center"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <TextView
         android:id="@+id/textView"
@@ -54,11 +55,26 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="220dp"
         android:fontFamily="sans-serif"
-        android:text="Hubo un error con los datos ingresados. \n\nNo se pudo completar el registro."
+        android:text="@string/registry_error"
+        android:textAlignment="center"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top" />
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_300"
+        android:text="@string/default_back"
+        android:textColorLink="@color/primary_300"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

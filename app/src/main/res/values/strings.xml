@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">SePriceApp</string>
+
     <!--- main -->
     <string name="main_title">Clinica SePrice</string>
+
     <!--- Generales -->
     <string name="default_continue">Continuar</string>
     <string name="default_back">Volver</string>
+
     <!--- Inicio -->
     <string name="start_welcome">Bienvenido</string>
     <string name="start_insert_data">Por favor, ingresa tus datos</string>
@@ -13,6 +16,7 @@
     <string name="start_get_in">Ingresar</string>
     <string name="start_forgot_pass">¿Olvidaste tu clave?</string>
     <string name="start_no_account">¿No tenes una cuenta? Registrate</string>
+
     <!--- Registro -->
     <string name="registry_form">Formulario de registro</string>
     <string name="registry_name">Nombre:</string>
@@ -27,6 +31,7 @@
     <string name="registry_register">Registrarme</string>
     <string name="registry_affiliate">N° afiliado</string>
     <string name="registry_success">¡Registro exitoso!</string>
+    <string name="registry_error">Hubo un error con los datos ingresados. \n\nNo se pudo completar el registro.</string>
     <!--- Password -->
     <string name="password">Contraseña:</string>
     <string name="enter_password">Ingrese una contraseña</string>
@@ -72,6 +77,14 @@
     <string name="menu_lab">Laboratorio</string>
     <string name="menu_study">Estudio</string>
     <string name="menu_help">Ayuda</string>
+    <string name="menu_log_out">Cerrar sesión</string>
+    
+    <!--- Ayuda -->
+    <string name="help_items">Registro Digital \n\nDocumentación y trámites \n\nObras sociales y Pregagas \n\nDerechos y responsabilidades \n\nCOVID</string>
+    <string name="help_digital_register">El registro digital le permite al/ a la paciente, desde la comodidad de su celular o computadora, solicitar turnos y modificarlos, ver resultados de estudios o laboratorios realizados. El servicio busca agilizar el trámite, favoreciendo el ahorro de tiempo del/ de la paciente. Además, el mismo se encuadra en el compromiso asumido por la institución de mejorar la calidad, excelencia e innovación en la prestación que caracteriza al Hospital.</string>
+
+    <!--- Mis turnos -->
+
 
 </resources>
 

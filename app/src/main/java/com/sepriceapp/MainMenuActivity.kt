@@ -48,5 +48,12 @@ class MainMenuActivity : AppCompatActivity(){
         helpButton.setOnClickListener {
             startActivity(helpIntent)
         }
+
+        // Cerrar Sesión
+        val logOutButton = findViewById<Button>(R.id.logOut)
+        val logOutIntent = Intent(this, MainActivity::class.java)
+        logOutButton.setOnClickListener {
+            startActivity(logOutIntent)
+        }
     }
 }

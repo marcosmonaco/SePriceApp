@@ -24,12 +24,12 @@
         android:text="@string/main_title"
         android:textAlignment="center"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <View
         android:id="@+id/rectangle_at_the_top"
@@ -81,7 +81,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Registro Digital \n\nDocumentación y trámites \n\nObras sociales y Pregagas \n\nDerechos y responsabilidades \n\nCOVID"
+            android:text="@string/help_items"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -98,7 +98,7 @@
             android:layout_marginLeft="7dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="El registro digital le permite al/ a la paciente, desde la comodidad de su celular o computadora, solicitar turnos y modificarlos, ver resultados de estudios o laboratorios realizados. El servicio busca agilizar el trámite, favoreciendo el ahorro de tiempo del/ de la paciente. Además, el mismo se encuadra en el compromiso asumido por la institución de mejorar la calidad, excelencia e innovación en la prestación que caracteriza al Hospital."
+            android:text="@string/help_digital_register"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -109,6 +109,7 @@
         android:layout_height="60dp"
         android:backgroundTint="@color/primary_300"
         android:text="@string/default_back"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

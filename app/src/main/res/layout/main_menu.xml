@@ -35,7 +35,7 @@
     <Button
         android:id="@+id/reserveAppointment"
         android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/primary_300"
         android:text="Reservar turno"
         android:textSize="20sp"
@@ -50,7 +50,7 @@
     <Button
         android:id="@+id/myAppointments"
         android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/primary_300"
         android:text="Mis turnos"
         android:textSize="20sp"
@@ -60,72 +60,81 @@
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.531" />
 
     <Button
         android:id="@+id/laboratory"
         android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/primary_300"
         android:text="Laboratorio"
-        app:cornerRadius="20dp"
         android:textSize="20sp"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintVertical_bias="0.635" />
 
     <Button
         android:id="@+id/studies"
         android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/primary_300"
         android:text="Estudios"
-        app:cornerRadius="20dp"
         android:textSize="20sp"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.806" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <Button
         android:id="@+id/help"
         android:layout_width="348dp"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:backgroundTint="@color/primary_300"
         android:text="Ayuda"
-        app:cornerRadius="20dp"
         android:textSize="20sp"
+        app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
+        app:layout_constraintVertical_bias="0.83" />
 
     <TextView
         android:id="@+id/main_title"
         android:layout_width="371dp"
         android:layout_height="57dp"
 
+        android:fontFamily="@font/roboto_bold"
         android:text="@string/main_title"
         android:textAlignment="center"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
-
-
-
-
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/primary_300"
+        android:text="@string/menu_log_out"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/help"
+        app:layout_constraintVertical_bias="0.32999998" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

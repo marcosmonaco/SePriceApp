@@ -25,12 +25,12 @@
         android:text="@string/main_title"
         android:textAlignment="center"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <View
         android:id="@+id/rectangle_at_the_top"
@@ -56,7 +56,8 @@
         android:layout_marginBottom="30dp"
         android:fontFamily="sans-serif"
         android:text="Resultados de laboratorio"
-        android:textSize="30sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -217,6 +218,7 @@
         android:layout_height="60dp"
         android:backgroundTint="@color/primary_300"
         android:text="@string/default_back"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

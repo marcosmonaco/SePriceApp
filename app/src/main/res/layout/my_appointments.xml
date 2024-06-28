@@ -35,14 +35,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="39dp"
-        android:layout_marginBottom="338dp"
         android:fontFamily="sans-serif"
         android:text="Mis Turnos"
-        android:textSize="30sp"
+        android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top"/>
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_at_the_top" />
 
 
     <LinearLayout
@@ -127,12 +127,13 @@
 
         <!-- Botón -->
         <Button
+            android:id="@+id/cancel_appointment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:backgroundTint="#00BFA6"
             android:text="Cancelar"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
 
 
@@ -146,12 +147,12 @@
         android:text="@string/main_title"
         android:textAlignment="center"
         android:textSize="48sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.120000005" />
 
     <Button
         android:id="@+id/goBackButton"
@@ -159,6 +160,7 @@
         android:layout_height="60dp"
         android:backgroundTint="@color/primary_300"
         android:text="@string/default_back"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
