@@ -5,5 +5,5 @@ class ProfessionalModel {
     var nombre: String = ""
     var apellido: String = ""
     var especialidad: String = ""
-    var mail: String = ""
+    var email: String = ""
 }

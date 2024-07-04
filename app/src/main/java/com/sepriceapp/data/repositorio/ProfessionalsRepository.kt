@@ -26,7 +26,7 @@ class ProfessionalsRepository {
             mapOf("nombre" to model.nombre,
             "apellido" to model.apellido,
            "especialidad" to model.especialidad,
-            "mail" to model.mail)
+            "mail" to model.email)
         ).await()
         return true
     }

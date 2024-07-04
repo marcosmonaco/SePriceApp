@@ -1,5 +1,7 @@
 package com.sepriceapp.data.repositorio
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import com.sepriceapp.data.comunes.FirestoreConstante
 import com.sepriceapp.data.comunes.FirestoreInstance
 import com.sepriceapp.data.model.AppointmentModel
@@ -20,12 +22,13 @@ class PatientsRepository {
         return true
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     private suspend fun actualizar(model: PatientModel): Boolean{
         val paciente = FirestoreInstance.get().collection(FirestoreConstante.COLECCION_PACIENTES).document(model.dni)
         paciente.update(
             mapOf("nombre" to model.nombre,
             "apellido" to model.apellido,
-            "mail" to model.mail,
+            "mail" to model.email,
             "dni" to model.dni,
             "telefono" to model.telefono,
             "fechaNacimiento" to model.fechaNacimiento,
@@ -44,6 +47,7 @@ class PatientsRepository {
         return true
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     suspend fun grabar(model: PatientModel): Boolean{
         return if(model.dni.isEmpty()){
             registrar(model)

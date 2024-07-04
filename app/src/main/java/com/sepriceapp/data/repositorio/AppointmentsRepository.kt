@@ -1,5 +1,7 @@
 package com.sepriceapp.data.repositorio
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import com.sepriceapp.data.comunes.FirestoreConstante
 import com.sepriceapp.data.comunes.FirestoreInstance
 import com.sepriceapp.data.model.AppointmentModel
@@ -20,13 +22,13 @@ class AppointmentsRepository {
         return true
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     private suspend fun actualizar(model: AppointmentModel): Boolean{
         val turno = FirestoreInstance.get().collection(FirestoreConstante.COLECCION_TURNOS).document(model.id)
         turno.update(
             mapOf("especialidad" to model.especialidad,
                 "estado" to model.estado,
-                "fecha" to model.fecha,
-                "hora" to model.hora,
+                "fechaHorario" to model.fechaHorario,
                 "profesional" to model.profesional)
         ).await()
         return true
@@ -38,6 +40,7 @@ class AppointmentsRepository {
         return true
     }
 
+    @RequiresApi(Build.VERSION_CODES.O)
     suspend fun grabar(model: AppointmentModel): Boolean{
         return if(model.id.isEmpty()){
             registrar(model)
