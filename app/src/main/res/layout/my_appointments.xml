@@ -72,11 +72,12 @@
             android:gravity="center"
             android:hint="Especialidad: Clínica Medica"
             android:inputType="text"
-            android:textColorHint="#000000" />
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
         <!-- Separador de color -->
         <View
             android:layout_width="match_parent"
-            android:layout_height="10dp"
+            android:layout_height="2dp"
             android:background="#00BFA6" />
 
         <!-- Segunda línea: campo de texto 100% ancho -->
@@ -89,7 +90,8 @@
             android:gravity="center"
             android:hint="Profesional: Julia Rodriguez"
             android:inputType="text"
-            android:textColorHint="#000000" />
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
 
         <!-- Separador de color -->
         <View
@@ -110,7 +112,8 @@
             android:hint="Fecha: 26/07/2024"
             android:importantForAutofill="noExcludeDescendants"
             android:inputType="text"
-            android:textColorHint="#000000" />
+            android:textColorHint="#000000"
+            android:textSize="20sp" />
 
 
 
